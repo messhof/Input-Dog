@@ -1,0 +1,14 @@
+<obj>line<m>bounceOff<x1>752<y1>1696<x2>880<y2>1568
+<obj>line<m>bounceOff<x1>624<y1>1568<x2>752<y2>1696
+<obj>line<m>deathThru<x1>704<y1>1344<x2>880<y2>1520
+<obj>line<m>deathThru<x1>704<y1>1216<x2>704<y2>1344
+<obj>line<m>deathThru<x1>704<y1>1216<x2>880<y2>1040
+<obj>line<m>deathThru<x1>624<y1>1184<x2>800<y2>1008
+<obj>line<m>deathThru<x1>800<y1>880<x2>800<y2>1008
+<obj>line<m>deathThru<x1>624<y1>704<x2>800<y2>880
+<obj>shipEntrance<x1>752<y1>1568
+<obj>line<m>bounceOff<x1>624<y1>608<x2>624<y2>1568
+<obj>line<m>bounceOff<x1>624<y1>608<x2>752<y2>480
+<obj>line<m>bounceOff<x1>752<y1>480<x2>880<y2>608
+<obj>line<m>bounceOff<x1>880<y1>608<x2>880<y2>1568
+<obj>shipExit<x1>752<y1>608

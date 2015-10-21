@@ -1,0 +1,15 @@
+<obj>pinwheel<m>deathThru<direction>counterclockwise<x1>1056<y1>1152<x2>1904<y2>1152
+<obj>line<m>bounceOff<x1>1056<y1>1760<x2>1664<y2>1152
+<obj>line<m>bounceOff<x1>1056<y1>544<x2>1664<y2>1152
+<obj>line<m>bounceOff<x1>448<y1>1152<x2>1056<y2>1760
+<obj>line<m>bounceOff<x1>1056<y1>1504<x2>1408<y2>1152
+<obj>line<m>bounceOff<x1>704<y1>1152<x2>1056<y2>1504
+<obj>line<m>bounceOff<x1>704<y1>1152<x2>1056<y2>800
+<obj>line<m>bounceOff<x1>1056<y1>1632<x2>1536<y2>1152
+<obj>line<m>bounceOff<x1>576<y1>1152<x2>1056<y2>1632
+<obj>line<m>bounceOff<x1>992<y1>736<x2>1408<y2>1152
+<obj>line<m>bounceOff<x1>576<y1>1152<x2>992<y2>736
+<obj>line<m>bounceOff<x1>992<y1>608<x2>1536<y2>1152
+<obj>line<m>bounceOff<x1>448<y1>1152<x2>1056<y2>544
+<obj>shipExit<x1>1056<y1>608
+<obj>shipEntrance<x1>656<y1>1104

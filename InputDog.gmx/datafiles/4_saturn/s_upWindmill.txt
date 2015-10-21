@@ -1,0 +1,12 @@
+<obj>shipEntrance<x1>976<y1>976
+<obj>line<m>bounceOff<x1>976<y1>1104<x2>1104<y2>976
+<obj>line<m>bounceOff<x1>848<y1>976<x2>976<y2>1104
+<obj>pinwheel<m>deathThru<direction>counterclockwise<x1>848<y1>768<x2>976<y2>768
+<obj>pinwheel<m>deathThru<direction>clockwise<x1>1104<y1>768<x2>1232<y2>768
+<obj>line<m>closedThru<x1>848<y1>528<x2>1104<y2>528
+<obj>line<m>closedThru<x1>848<y1>512<x2>1104<y2>512
+<obj>line<m>bounceOff<x1>848<y1>448<x2>848<y2>976
+<obj>line<m>bounceOff<x1>848<y1>448<x2>976<y2>320
+<obj>line<m>bounceOff<x1>976<y1>320<x2>1104<y2>448
+<obj>line<m>bounceOff<x1>1104<y1>448<x2>1104<y2>976
+<obj>shipExit<x1>976<y1>448

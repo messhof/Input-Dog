@@ -1,0 +1,13 @@
+<obj>pinwheel<m>spinThru<direction>counterclockwise<x1>1024<y1>1024<x2>1312<y2>1024
+<obj>shipEntrance<x1>688<y1>912
+<obj>line<m>openThru<x1>736<y1>1024<x2>1312<y2>1024
+<obj>line<m>bounceOff<x1>736<y1>1024<x2>736<y2>1120
+<obj>line<m>bounceOff<x1>736<y1>1120<x2>896<y2>1280
+<obj>line<m>bounceOff<x1>896<y1>1280<x2>1152<y2>1280
+<obj>line<m>bounceOff<x1>752<y1>784<x2>1120<y2>784
+<obj>line<m>bounceOff<x1>608<y1>928<x2>752<y2>784
+<obj>line<m>bounceOff<x1>608<y1>928<x2>608<y2>1024
+<obj>line<m>bounceOff<x1>608<y1>1024<x2>736<y2>1024
+<obj>turret<m>spinThru<x1>864<y1>800
+<obj>turret<m>spinThru<x1>960<y1>800
+<obj>turret<m>spinThru<x1>1056<y1>800

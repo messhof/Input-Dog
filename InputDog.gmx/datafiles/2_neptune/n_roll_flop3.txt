@@ -1,0 +1,17 @@
+<obj>line<m>bounceOff<x1>960<y1>1216<x2>1072<y2>1328
+<obj>line<m>bounceOff<x1>1072<y1>1328<x2>1184<y2>1216
+<obj>line<m>bounceOff<x1>1184<y1>976<x2>1184<y2>1216
+<obj>line<m>bounceOff<x1>1184<y1>976<x2>1248<y2>912
+<obj>line<m>bounceOff<x1>960<y1>912<x2>960<y2>1216
+<obj>line<m>bounceOff<x1>960<y1>912<x2>1184<y2>688
+<obj>line<m>spinThru<x1>1088<y1>784<x2>1232<y2>928
+<obj>line<m>spinThru<x1>1072<y1>800<x2>1216<y2>944
+<obj>line<m>spinThru<x1>1056<y1>816<x2>1200<y2>960
+<obj>line<m>closedThru<x1>960<y1>992<x2>1184<y2>992
+<obj>shipEntrance<x1>1072<y1>1232
+<obj>line<m>openThru<x1>1264<y1>688<x2>1264<y2>912
+<obj>line<m>bounceOff<x1>1392<y1>688<x2>1504<y2>800
+<obj>line<m>bounceOff<x1>1392<y1>912<x2>1504<y2>800
+<obj>line<m>bounceOff<x1>1248<y1>912<x2>1392<y2>912
+<obj>line<m>bounceOff<x1>1184<y1>688<x2>1392<y2>688
+<obj>shipExit<x1>1408<y1>800
