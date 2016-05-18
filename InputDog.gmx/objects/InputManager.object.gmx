@@ -157,9 +157,7 @@ ds_map_destroy(replayLog);
             <string>///search for gamepads
 if(directInput)
     inputdog_search_for_joysticks();
-else
-    inputdog_search_for_gamepads();
-alarm[0] = 120;
+
 </string>
           </argument>
         </arguments>
@@ -200,6 +198,16 @@ for(i=0; i&lt;ds_list_size(inputs); i++)
         ds_map_replace(inputsDown, INPUT, MAX);
     }
 }
+
+// If direct input mode is being used and alarm 0 isn't active start the timer to check for gamepad changes
+if (directInput)
+{
+    if (alarm[0] == -1)
+    {
+        alarm[0] = 120;
+    }
+}
+
 </string>
           </argument>
         </arguments>
@@ -330,6 +338,59 @@ if(gamepadSlot != -1)
     
 var V = 0.01;
 rumble = max(rumble-V,0);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="75">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Gamepad either connected or disconnected
+
+switch (ds_map_find_value(async_load, "event_type"))
+{
+    // Gamepad Connected
+    case "gamepad discovered":
+        if (gamepadSlot == -1)
+        {
+            var _pad      = ds_map_find_value(async_load, "pad_index");
+            var _padInUse = inputdog_is_slot_in_use(_pad, false);
+            
+            if (!_padInUse)
+            {
+                gamepadSlot = _pad;
+                show_debug_message("found gamepad");
+            }
+        }
+    break;
+    
+    // Gamepad Disconnected
+    case "gamepad lost":
+        var _pad = ds_map_find_value(async_load, "pad_index");
+        
+        if (_pad == gamepadSlot)
+        {
+            gamepadSlot = -1;
+            show_debug_message("gamepad disconnected");
+        }
+    break;
+}
+
 </string>
           </argument>
         </arguments>
